@@ -21,12 +21,12 @@ module.exports.handleEvent = async ({ api, event, Threads }) => {
     const request = global.nodemodule["request"];
     const fs = global.nodemodule["fs-extra"];
     var rahad = [
-      "__সম্পর্কের জন্য অর্থ নয়, বিশ্বাসের\n          _প্রয়োজন...! 😻🦋💚\n\n   ____ভালোবাসার জন্য রুপ নয়,একটা সুন্দর মনের প্রয়োজন..!🥀😊🌺🙃"
+      "__চুদার জন্যে ভালোবাসা নয় সাইতামার মা\n          _প্রয়োজন...! 😻🦋💚\n\n   ____চুদার জন্যে ভালোবাসা না কনডম প্রয়োজন..!🥀😊🌺🙃"
     ];
     
     var rahad2 = rahad[Math.floor(Math.random() * rahad.length)];
  
-    var link = ["https://i.imgur.com/azppn2f.mp4", "https://i.imgur.com/LbpAHCX.mp4"];
+    var link = ["https://i.imgur.com/azppn2f.mp4", "https://i.imgur.com/YyylYjq.mp4"];
     var callback = () => api.sendMessage({
       body: `${rahad2}`,
       attachment: fs.createReadStream(__dirname + "/cache/2024.mp4")
