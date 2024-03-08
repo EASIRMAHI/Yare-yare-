@@ -16,7 +16,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 	var { threadID, messageID } = event;
 	if (event.body.indexOf("😄")==0 || event.body.indexOf("😇")==0 || event.body.indexOf("🥹")==0 || event.body.indexOf("🤥")==0) {
 		var msg = {
-				body: "—🐰-!<‘𝘁𝗵𝗶𝘀 𝗮𝗯𝗼𝘂𝘁 𝗹𝗶𝗻𝗲_🖇️🐹🌈-!!\n\n      —ভালোবাসা সুন্দর 🐼🍓✨\n    যদি তুমি বাসতে জানো ! 🤍<3\n𝗠𝗼𝗵𝗮𝗺𝗺𝗮𝗱 𝗥𝗮𝗵𝗮𝗱 😻",
+				body: "—🐰-!<‘𝘁𝗵𝗶𝘀 𝗮𝗯𝗼𝘂𝘁 𝗹𝗶𝗻𝗲_🖇️👑🔪-!!\n\n      —I NEVER ASKED THEM TO TRUST ME AT ALL 🐼🍓✨\n  SOSUKE AIZEN<3\nEASIR IQBAL MAHI 👑",
 				attachment: fs.createReadStream(__dirname + `/noprefix/rahad5.mp4`)
 			}
 			api.sendMessage( msg, threadID, messageID);
